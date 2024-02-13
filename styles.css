@@ -1,0 +1,176 @@
+** {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: white; 
+    color: black; 
+}
+
+h1 {
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 1rem 0;
+    color: #2c3e50; 
+   
+}
+
+h2 {
+    font-size: 37px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #2c3e50; 
+    
+}
+
+h3 {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 31px;
+    color: #2c3e50; 
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white; 
+}
+
+/* Header Styles */
+header {
+    margin-top: 190px; 
+    text-align: center; 
+}
+
+/* Navigation Styles */
+nav {
+    height: 5rem;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background: #2c3e50; 
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    font-size: 16px;
+    font-weight: 400;
+    transition: 0.4s ease;
+}
+
+nav ul li a:hover {
+    color: #12e12e; 
+}
+
+/* Section Styles */
+section {
+    padding: 50px 0; 
+    text-align: center; 
+}
+
+/* About Section Styles */
+#about img {
+    width: 200px; 
+    border-radius: 50%; 
+}
+
+
+#skills ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#skills ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#skills ul li:last-child {
+    margin-right: 0;
+}
+
+#skills ul li button {
+    padding: 8px 16px;
+    background-color:#2c3e50; /* Blue color, you can change it to your preferred color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#skills ul li button:hover {
+    background-color: darkgrey; /* Darker shade of blue on hover */
+}
+
+
+#resume .resume-button {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+#resume .resume-button button {
+    padding: 8px 16px;
+    background-color: #2c3e50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#resume .resume-button button:hover {
+    background-color: darkgrey;
+}
+
+/* Projects Section Styles */
+.project {
+    margin-bottom: 50px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project img {
+    width: 300px; 
+    border-radius: 10px; 
+    order: 2; 
+}
+
+.project p {
+    max-width: 60%; 
+    order: 1; 
+}
+
+p {
+    font-size: 20px; /* Adjust the font size as needed */
+    line-height: 1.5; /* Adjust the line height as needed */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #2c3e50; 
+    color:  #ffffff;
+    text-align: center;
+    padding: 10px 0;
+}
